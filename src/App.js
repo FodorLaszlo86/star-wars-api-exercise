@@ -28,7 +28,12 @@ class App extends Component {
           />)
     return (
       <div className="App">
+      <header>
+        <h1>Luke, Use An API!!!</h1>
+      </header>
+      <section className='peopleContainer'>
         { SWPeopleArr }
+      </section>
       </div>
     );
   }
