@@ -2,7 +2,9 @@ import React from 'react';
 
 const starWarsPeople = (props) => {
     return (
-        <div></div>
+        <div>
+            
+        </div>
     )
 }
 

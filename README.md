@@ -66,3 +66,5 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `npm run build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+# star-wars-api-exercise
+Using the Star wars API, https://swapi.co/api, building a simple app displaying the characters. Main goal is to practice AJAX request. Fetch API is being used.
