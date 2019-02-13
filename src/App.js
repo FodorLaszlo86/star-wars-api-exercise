@@ -13,12 +13,22 @@ class App extends Component {
     .then(response => response.json())
     .then(data => this.setState({ people: data.results }))
     .catch(() => console.log('FAILED TO LOAD YOUR DATA SIR'))
+
+
   }
 
   render() {
+    const SWPeopleArr = this.state.people.map(SWPpl => 
+          <StarWarsPeople 
+              key={SWPpl.name}
+              name={SWPpl.name} 
+              height={SWPpl.height} 
+              mass={SWPpl.mass} 
+              birthDate={SWPpl.birth_year} 
+          />)
     return (
       <div className="App">
-
+        { SWPeopleArr }
       </div>
     );
   }
